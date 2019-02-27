@@ -1,8 +1,11 @@
 #include<stdio.h>
 void main()
 {
-intc a=2,b=2;
-if(a==b)
-printf("hi");
+int a;
+scanf("%d",&a);
+if(a>0)
+printf("positive");
+else if(a==0)
+printf("zero");
 else
-printf("Hello");
+printf("negative");
